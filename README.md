@@ -84,7 +84,7 @@ Frontend will be available at [http://localhost:3000](http://localhost:3000)
 ## 🧪 Usage
 
 1. Visit the frontend UI
-2. Click the "bot" URL and be redirected to the Telegram bot
+2. Click the "bot" URL and be redirected to the Telegram bot (https://t.me/shanes_reddit_crawler_bot)
 3. Started the bot on Telegram with `/start`
 4. Enter your Telegram username (without `@`)
 5. Click **"Generate Report"**
