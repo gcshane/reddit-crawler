@@ -54,11 +54,13 @@ pip install -r requirements.txt
 Create a `.env` file inside the `flaskr/` directory:
 
 ```env
-client_id = your_reddit_client_id
-client_secret = your_reddit_client_secret
-user_agent = your_reddit_user_agent
-mongo_uri = your_mongodb_uri
-telegram_token = your_telegram_bot_api_token
+client_id = <your_reddit_client_id>
+client_secret = <your_reddit_client_secret>
+user_agent = <your_reddit_user_agent>
+mongo_uri = <your_mongodb_uri>
+telegram_token = <your_telegram_bot_api_token>
+FLASK_APP = server
+
 ```
 
 #### 🔹 Run the Flask Server

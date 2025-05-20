@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./SubredditReportForm.css"; // <-- Import the CSS file
+import "./SubredditReportForm.css";
 
 export default function SubredditReportForm() {
   const [username, setUsername] = useState("");
