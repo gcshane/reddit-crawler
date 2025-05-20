@@ -1,4 +1,4 @@
-from . import crawl
+import crawl
 from flask import Flask
 
 def create_app():

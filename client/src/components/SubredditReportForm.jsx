@@ -15,7 +15,6 @@ export default function SubredditReportForm() {
     try {
       const url = `/crawl/memes/20/day/${username}`;
       await axios.get(url);
-
       setMessage("✅ Report successfully sent via Telegram!");
     } catch (err) {
       console.error(err);

@@ -38,7 +38,7 @@ cd reddit-crawler
 #### 🔹 Create Virtual Environment
 
 ```bash
-cd flaskr
+cd server
 python3 -m venv .venv
 source .venv/bin/activate
 ```
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 #### 🔹 Environment Variables
 
-Create a `.env` file inside the `flaskr/` directory:
+Create a `.env` file inside the `server/` directory:
 
 ```env
 client_id = <your_reddit_client_id>
@@ -59,14 +59,11 @@ client_secret = <your_reddit_client_secret>
 user_agent = <your_reddit_user_agent>
 mongo_uri = <your_mongodb_uri>
 telegram_token = <your_telegram_bot_api_token>
-FLASK_APP = server
-
 ```
 
 #### 🔹 Run the Flask Server
 
 ```bash
-cd ..
 python -m flask run
 ```
 
@@ -75,7 +72,7 @@ python -m flask run
 ### 3. Frontend Setup (React)
 
 ```bash
-cd ../frontend
+cd ./client
 npm install
 npm start
 ```
